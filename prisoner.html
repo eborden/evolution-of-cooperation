@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Prisoner's Dilemma</title>
+        <link href="style.css" type="text/css" rel="stylesheet" media="screen" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#what">What Is This?</a></li>
+                <li><a href="#axelrod">Axelrod's Tournaments</a></li>
+                <li><a href="#titfortat">Tit For Tat's Lesson</a></li>
+                <li><a href="#prisoners">Prisoner's Dilemma</a></li>
+                <li><a href="#getinvolved">Get Involved</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div id="intro">
+                <h1>The Evolution Of Cooperation</h1>
+                <a href="#" role="button" id="run-simulation">Run Simulation</a>
+            </div>
+            <div id="simulations"></div>
+            <div id="console"></div>
+        </header>
+        <section class="color-6"><a name="what"></a>
+            <h2>What Is This?</h2>
+            <p>This website displays how cooperation and altruism can and do exist in our "survival of the fittest" world. In a cut throat dog eat dog world why do cooperation and altruism persist? If the best mentality is to take for yourself then why do we work together? Through methods pioneered by Robert Axelrod in the 1980s we can see how cooperation is evolutionarily advantageous.</p>
+        </section>
+        <section class="color-2"><a name="axelrod"></a>
+            <h2>AxelRod's Tournaments</h2>
+            <p>In 1980, Robert Axelrod, professor of political science at the University of Michigan, held a tournament of various strategies for the <a href="#prisoners">prisoner's dilemma</a>. He invited a group of well-known game theorists to submit strategies to compete. A computer simulation ran these strategies against each other . Each strategy specified whether to cooperate or defect based on the previous moves of its opponent.</p>
+            <p>The result was the publication of <a href="http://en.wikipedia.org/wiki/The_Evolution_of_Cooperation">The Evolution of Cooperation</a>. In this book Axelrod expounds on discoveries found in his tournaments. The primary finding being that the best strategies were "nice", meaning they were never the first to defect. The most effective of these nice strategies was called "Tit For Tat." Tit For Tat was so successful because of it's simplicity. It only had two rules; first, be nice; second, respond appropriately. If Tit For Tat's opponent was "mean", it would be mean back. If its opponent was nice, it would also be nice. This simple strategy was surprisingly effective.</p>
+        </section>
+        <section class="color-6"><a name="titfortat"></a>
+            <h2>Tit For Tat's Lessons</h2>
+            <p>What does Tit for Tat teach us?</p>
+            <ul>
+                <li>In a social world favoring cooperation can lead to mutual success.</li>
+                <li>Niceness is not a golden rule. Being nice can lead to getting suckered. Successful individuals must be able to respond appropriately to provocation.</li>
+            </ul>
+        </section>
+        <section class="color-7"><a name="prisoners"></a>
+            <h2>Prisoner's Dilemma</h2>
+            <p>The prisoner's dilemma is a game that shows why two individuals might not cooperate, even if it appears that it is in their best interests to do so</p>
+            <blockquote cite="Poundstone, 1992">
+                <p>Two members of a criminal gang are arrested and imprisoned. Each prisoner is in solitary confinement with no means of speaking to or exchanging messages with the other. The police admit they don't have enough evidence to convict the pair on the principal charge. They plan to sentence both to a year in prison on a lesser charge. Simultaneously, the police offer each prisoner a Faustian bargain. If he testifies against his partner, he will go free while the partner will get three years in prison on the main charge. Oh, yes, there is a catch ... If both prisoners testify against each other, both will be sentenced to two years in jail.</p>
+            </blockquote>
+        </section>
+        <section class="color-5"><a name="getinvolved"></a>
+            <h2>Do You Have A Strategy?</h2>
+            <blockquote>A strategy is only as good as its competition.</blockquote>
+            <p>This version of Axelrod's tournament is written in JavaScript. If you would like to contribute a strategy you may do so through <a href="#">github</a>.</p>
+        </section>
+    </body>
+    <script src="moralities.js"></script>
+    <script src="underscore.js"></script>
+    <script src="main.js"></script>
+</html>
