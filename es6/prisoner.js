@@ -1,5 +1,5 @@
-const DEFECT = 1,
-      COOPERATE = 0;
+var DEFECT = 1,
+    COOPERATE = 0;
       
 function play (p1, p2, rounds, history) {
     history = history ? history : [[], []];
