@@ -1084,7 +1084,7 @@ function setupSimulation() {
       simulations = [],
       simulationsEl = document.getElementById('simulations'),
       consoleEl = document.getElementById('console'),
-      w = worker('prisonWorker.js', workerMessage(simulations), log, log),
+      w = worker('js/prisonWorker.js', workerMessage(simulations), log, log),
       morlts = moralities();
   simulations[i] = create({
     tag: 'div',

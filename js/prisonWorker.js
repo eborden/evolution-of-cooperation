@@ -2,7 +2,7 @@ postMessage({
   type: 'log',
   message: 'initialized worker'
 });
-importScripts('underscore.js', 'prisoner.js', 'moralities.js');
+importScripts('js/main.js', 'js/prisoner.js', 'js/moralities.js');
 addEventListener('message', function(e) {
   postMessage({
     type: 'init',
