@@ -739,7 +739,9 @@ header{
     bottom: .5em;
     right: 0;
     font-size: 1.2em;
+    -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
+    -webkit-transform-origin: top right;
     transform-origin: top right;
     text-shadow: -1px 0 #777, 0 1px #777, 1px 0 #777, 0 -1px #777;
     color: #E9E9E9;
